@@ -21,14 +21,15 @@ public class Main {
         WebElement addBtnElem = driver.findElement(By.id("add-btn"));
         addBtnElem.click();
 
-        driver.switchTo().frame("add-result");
+        //driver.switchTo().frame("add-result");  //This was to print out to the console
 
 
         //SUBTRACT
 
-        driver.switchTo().defaultContent();
+        //driver.switchTo().defaultContent();
+
         WebElement subtractElem1 = driver.findElement(By.id("subtract-input"));
-        subtractElem1.sendKeys("1");
+        subtractElem1.sendKeys("5");
 
         WebElement subtractElem2 = driver.findElement(By.id("subtract-input2"));
         subtractElem2.sendKeys("2");
@@ -41,8 +42,9 @@ public class Main {
 
         //MULTIPLY
         driver.switchTo().defaultContent();
+
         WebElement multiplyElem1 = driver.findElement(By.id("multiply-input"));
-        multiplyElem1.sendKeys("1");
+        multiplyElem1.sendKeys("6");
 
         WebElement multiplyElem2 = driver.findElement(By.id("multiply-input2"));
         multiplyElem2.sendKeys("3");
@@ -55,8 +57,9 @@ public class Main {
 
         //DIVIDE
         driver.switchTo().defaultContent();
+
         WebElement divideElem1 = driver.findElement(By.id("divide-input"));
-        divideElem1.sendKeys("1");
+        divideElem1.sendKeys("40");
 
         WebElement divideElem2 = driver.findElement(By.id("divide-input2"));
         divideElem2.sendKeys("4");
