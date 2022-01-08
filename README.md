@@ -20,6 +20,7 @@ Finance managers are authorized to approve and deny requests for expense reimbur
 - Clone repository with "git clone  https://github.com/joesi8302/Expense-Reimbursement-App.git"
 - Open with code editor (preferably IntelliJ IDEA)
 - Run class "Main"
+- On any web browser go to http://localhost:9000
 - Users to log in with:
   - Username: "test" | Password: "password"
   
