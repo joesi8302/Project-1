@@ -18,16 +18,22 @@ Finance managers are authorized to approve and deny requests for expense reimbur
 ## Getting Started
 
 - Clone repository with "git clone  https://github.com/joesi8302/Expense-Reimbursement-App.git"
-- Open with code editor (preferably IntelliJ IDEA)
+- Open "project-1" java supported IDE (preferably IntelliJ IDEA)
 - Run class "Main"
 - On any web browser go to http://localhost:9000
 - Users to log in with:
   - Username: "test" | Password: "password"
   
   - Username: "admintest" | Password: "boss"
+
+- Similarly with the "project-1-selenium"
+  - Open "project-1-selenium" java supported IDE (preferably IntelliJ IDEA) 
+  - Run class "Main"
   
 ## Usage
 Under the test user, you can create reimbursements and view your own created ones
 
 Under the admintest user, you can approve or deny the test user's reimbursements by clicking 
 on the reimbursment and pressing approve or deny on the popup window
+
+The Selenium Project will automate logging into the system and creating a reimbursement
