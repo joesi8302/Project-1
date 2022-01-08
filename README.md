@@ -21,8 +21,8 @@ Finance managers are authorized to approve and deny requests for expense reimbur
 - Open with code editor (preferably IntelliJ IDEA)
 - Run class "Main"
 - Users to log in with:
-  Username: "test"
-  Password: "password"
+-- Username: "test"
+-- Password: "password"
   
   Username: "admintest"
   Password: "boss"
